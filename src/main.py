@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 import os
 print(os.path.exists("data/raw/India_Emissions.filtered/co-emissions-per-capita.csv"))
 
@@ -29,6 +30,34 @@ clean_df = df[["Year", "CO₂ emissions per capita"]]
 
 print(clean_df.head())
 print(clean_df.tail())
+#Exploratory Data Analysis
+
+plt.figure(figsize=(10,5))
+
+plt.plot(
+
+clean_df["Year"],
+clean_df["CO₂ emissions per capita"]
+
+
+
+
+
+
+)
+
+
+
+
+
+plt.title("India CO₂ Emissions Per Capita")
+plt.xlabel("Year")
+plt.ylabel("CO₂ Emissions Per Capita")
+
+plt.grid(True)
+
+plt.show()
+
 
 
 
