@@ -12,3 +12,5 @@ A policy slider is also included to help simulate different policy scenarios and
 
 Lastly, the results are visualized to better understand the relationship between policies and projected emissions.
 
+This project has some of my personal contributions as well as AI-assisted guidance.
+I have been working on this for many months, this is my first ML project
